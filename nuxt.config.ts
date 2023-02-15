@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   imports: {
     autoImport: false,
   },
+  modules: [
+    '@nuxt/content',
+  ],
   typescript: {
     strict: true,
     typeCheck: true,

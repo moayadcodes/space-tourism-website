@@ -35,5 +35,17 @@ module.exports = {
       'error',
       'always',
     ],
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: [
+          'index',
+          'destination',
+          'crew',
+          'technology',
+        ],
+      },
+    ],
+    'vue/no-multiple-template-root': 'off',
   },
 };
