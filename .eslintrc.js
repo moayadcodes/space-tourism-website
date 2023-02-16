@@ -30,6 +30,9 @@ module.exports = {
     'quotes': [
       'error',
       'single',
+      {
+        'avoidEscape': true,
+      },
     ],
     'semi': [
       'error',
@@ -38,7 +41,7 @@ module.exports = {
     'vue/multi-word-component-names': [
       'error',
       {
-        ignores: [
+        'ignores': [
           'index',
           'destination',
           'crew',
