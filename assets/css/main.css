@@ -9,3 +9,21 @@
     --color-white: 255 255 255;
   }
 }
+
+@layer utilities {
+  .bg-home {
+    background-image: url('~/assets/images/background-home-mobile.webp');
+  }
+
+  @media (min-width: 768px) {
+    .bg-home {
+      background-image: url('~/assets/images/background-home-tablet.webp');
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .bg-home {
+      background-image: url('~/assets/images/background-home-desktop.webp');
+    }
+  }
+}

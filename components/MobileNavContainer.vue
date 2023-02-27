@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, useRoute, watch } from '#imports';
 import debounce from 'lodash.debounce';
-import { defineEmits } from 'vue';
 
 const emit = defineEmits<{
   (e: 'mobileNavClose'): void
